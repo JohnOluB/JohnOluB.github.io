@@ -1,0 +1,122 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap"); */
+
+.container {
+  height: 100vh;
+  align-items: center;
+  /* flex-direction: row;
+  justify-content: space-between; */
+}
+body {
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-bottom: 0;
+}
+
+/* .BGimage {
+  flex: 1;
+  background-image: url(../images/audience.png);
+  background-size: cover;
+} */
+.container-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3vw;
+  flex: 2;
+}
+.arrow {
+  height: 1.98vh;
+  width: 2.3vh;
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+}
+.header {
+  /* /* font-family: Lato; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 4.4vh;
+  margin-top: 20vh;
+  color: rgb(255, 102, 0);
+}
+.subheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Work Sans;
+  color: grey;
+  font-size: 2.4vh;
+  padding-top: 2vh;
+}
+.input-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* font-family: Lato; */
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.8vh;
+  color: black;
+  padding-top: 20px;
+  font-weight: 600;
+  padding-bottom: 18px;
+}
+.boxOne {
+  font-size: 1vw;
+  color: #322b5f;
+  height: 24px;
+  padding-bottom: 7px;
+  width: 45vw;
+}
+.buttonCase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 102, 0);
+  width: 45vw;
+  height: 3vw;
+  border: 0;
+  border-radius: 0.3vw;
+  cursor: pointer;
+  border-color: rgb(255, 102, 0);
+  border-style: groove;
+  /* font-family: Lato; */
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  font-weight: 2;
+  color: white;
+  margin-top: 17px;
+}
+.buttonCase:hover {
+  background-color: transparent;
+  border-color: rgb(255, 102, 0);
+  color: rgb(255, 102, 0);
+  border-width: 0.1vw;
+}
+.buttonCase:active {
+  color: rgb(255, 123, 0);
+  border-width: 0.1vw;
+}
+.forgotPassword {
+  display: flex;
+  flex-direction: column;
+  font-family: Lato;
+  font-size: smaller;
+  font-weight: 10;
+  color: grey;
+  padding-top: 18px;
+}
+@media screen and (max-width: 768px) {
+  .boxOne {
+    font-size: 15px;
+    color: rgb(255, 102, 0);
+    width: 250px;
+  }
+  .buttonCase {
+    height: 5vh;
+    width: 250px;
+  }
+}
